@@ -1,0 +1,10 @@
+.orders_summery {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.orders_header {
+    text-align: center;
+    font-weight: 900;
+}

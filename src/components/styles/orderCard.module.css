@@ -1,0 +1,28 @@
+
+.order_card_container{
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.order_card_header{
+    text-align: center;
+}
+.table{
+    background-color: #f0f4f9;
+    padding: 10px;
+    border: 4px;
+}
+
+.table_header{
+    width: 200px;
+    font-size: 1.25rem;
+    padding: 6px 0px;
+    border-bottom: 2px solid black;
+}
+td{
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+}
+
+
