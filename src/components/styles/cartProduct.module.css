@@ -10,22 +10,26 @@
 }
 
 .product_image{
-    height: 400px;
-    width: 300px;
+    height: 300px;
+    width: 250px;
 }
 
 .product_details{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .price{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 700;
 }
 
 .quantity{
     font-size: 1.6rem;
-    padding-left: 35%;
+    padding-left: 30%;
+}
+.icon:hover{
+transform:scale(1.1);
+cursor:pointer;
 }
 
 .remove_button{
@@ -44,3 +48,4 @@
     color: red;
     border: 1px solid red;
 }
+

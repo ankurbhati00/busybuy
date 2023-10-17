@@ -14,9 +14,9 @@ export function CartProduct() {
       <div>
         <span className={style.price}>&#8377; 899</span>{" "}
         <span className={style.quantity}>
-          <FontAwesomeIcon icon={faCirclePlus} />
+          <FontAwesomeIcon icon={faCirclePlus} className={style.icon} />
           &nbsp;&nbsp;8&nbsp;&nbsp;
-          <FontAwesomeIcon icon={faCircleMinus} />
+          <FontAwesomeIcon icon={faCircleMinus} className={style.icon} />
         </span>
       </div>
       <button className={style.remove_button}>Remove From Cart</button>

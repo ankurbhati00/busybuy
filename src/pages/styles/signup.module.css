@@ -1,0 +1,46 @@
+.container {
+    display: block;
+    margin-top: 150px;
+    text-align: center;
+
+}
+
+.header {
+    font-size: 3.5rem;
+}
+
+.input {
+    height: 20px;
+    width: 300px;
+    font-size: 1.3rem;
+    padding: 15px;
+    margin: 5px 0px;
+    border: 1px solid rgb(198, 144, 250);
+    background-color: rgb(248, 243, 254);
+    border-radius: 5px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.signup_btn {
+    background-color: rgb(168, 92, 239);
+    height: 45px;
+    width: 330px;
+    border: 1px solid transparent;
+    margin-top: 10px;
+    font-size: 1.45rem;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0px 4px 5px 2px rgb(211, 207, 207);
+    cursor: pointer;
+}
+
+.bottom_text {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+}

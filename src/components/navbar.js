@@ -37,7 +37,7 @@ export function NavBar() {
               className={style.icons}
               icon={faRightFromBracket}
             />
-            <Link className={style.link} to="logout">
+            <Link className={style.link} to="sign-in">
               Logout
             </Link>
           </li>

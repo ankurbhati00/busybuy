@@ -3,10 +3,42 @@
 .container {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin-top: 100px;
     gap: 15px;
     position: absolute;
-    left: 17%;
+    left: 15%;
 
 
+}
+
+.purchase_container{
+        height: 150px;
+        width: 13%;
+        background-color: #e5e5ec;
+        padding: 10px;
+        border-radius: 5px;
+        position: fixed;
+        top: 30%;
+        left: 1px;
+}
+
+.purchase_button{
+        width: 90%;
+        padding: 5px;
+        margin: 10px;
+        background-color: #8b8bf3;
+        font-size: 1.3rem;
+        color: white;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        cursor: pointer;
+}
+
+.purchase_button:hover{
+    background-color: transparent;
+    color:#8b8bf3 ;
+    border:1px solid #8b8bf3;
+}
+h2{
+    font-size: 1.4rem;
 }
