@@ -1,18 +1,16 @@
 import style from './styles/productCard.module.css';
 
 
-export function ProductCard() {
-    
+export function ProductCard({data}) {
 
     return (
       <>
         <div className={style.productCard}>
-          <img
-            className={style.productImage}
-            src="https://5.imimg.com/data5/SELLER/Default/2022/4/OY/AC/ZT/31003867/12121521.jpg"
-          />
-          <div className={style.productDetails}>product details...</div>
-          <div className={style.price}> &#8377; 400</div>
+          <img className={style.productImage} src={data.image} />
+          <div className={style.productDetails}>
+            {data.details.substring(0, 40)+'...'}
+          </div>
+          <div className={style.price}> &#8377; {data.price}</div>
           <button className={style.addToCart}>Add to Cart</button>
         </div>
       </>

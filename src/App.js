@@ -8,6 +8,11 @@ import { Cart } from "./pages/cart";
 import { SignIn } from "./pages/signIn";
 import { SignUp } from "./pages/signup";
 import { Loader } from "./components/loader";
+import { Provider } from "react-redux";
+import { store } from "./redux/store";
+
+
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -39,7 +44,9 @@ const router = createBrowserRouter([
 function App() {
   return (
     <div className="App">
-      <RouterProvider router={router} />
+      <Provider store={store}>
+        <RouterProvider router={router} />
+      </Provider>
     </div>
   );
 }

@@ -2,12 +2,23 @@
 .spinner{
         height: 90px;
         width: 90px;
-        border-top: 3px solid blueviolet;
-        border-right:3px dotted blueviolet;
-        border-left:3px solid blueviolet;
+        margin:40vh auto;
+        margin-top: -7vh;
+        border-top: 3px solid rgb(186, 125, 243);
+        border-left:3px dotted rgb(186, 125, 243);
+        border-right:3px solid rgb(186, 125, 243);
         border-radius: 50%;
-        animation: rotate .55s ease-in-out 0s infinite ;
+        animation: rotate 1s ease-in 0s infinite ;
 }
+
+.loading{
+    text-align: center;
+    margin: 45vh  auto;
+    margin-bottom: 0vh;
+    font-size: 0.91rem;
+}
+
+
 
 @keyframes rotate {
     form{
